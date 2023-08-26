@@ -1,0 +1,600 @@
+{
+  '0': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76e"),
+    username: 'admin1',
+    password: '12345',
+    name: 'Bob',
+    surname: 'Dylan',
+    email: 'admin1@aueb.gr',
+    address: { area: 'area1', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2101111111' },
+      { type: 'mobile', number: '6931111111' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-12-01T00:00:00.000Z
+      },
+      {
+        product: 'product 1',
+        quantity: 3,
+        cost: 10,
+        date: 2022-05-11T21:00:00.000Z
+      }
+    ]
+  },
+  '1': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76f"),
+    username: 'user1',
+    password: '12345',
+    name: 'Elvis',
+    surname: 'Presley',
+    email: 'user1@aueb.gr',
+    address: { area: 'area2', road: 'road2' },
+    phone: [
+      { type: 'home', number: '2102222222' },
+      { type: 'mobile', number: '6932222222' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-01-11T22:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2022-05-11T21:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 10,
+        cost: 40,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ],
+    updatedAt: 2023-08-24T18:14:46.861Z
+  },
+  '2': {
+    _id: new ObjectId("64da2d26763d19fa91c8c771"),
+    username: 'user3',
+    password: '12345',
+    name: 'Frank',
+    surname: 'Zappa',
+    email: 'user3@aueb.gr',
+    address: { area: 'area3', road: 'road4' },
+    phone: [
+      { type: 'home', number: '2104444444' },
+      { type: 'mobile', number: '6934444444' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 10,
+        cost: 10,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 3',
+        quantity: 3,
+        cost: 30,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 4,
+        cost: 40,
+        date: 2022-12-11T22:00:00.000Z
+      }
+    ]
+  },
+  '3': {
+    _id: new ObjectId("64da2d26763d19fa91c8c770"),
+    username: 'user2',
+    password: '12345',
+    name: 'George',
+    surname: 'Harisson',
+    email: 'user2@aueb.gr',
+    address: { area: 'area1', road: 'road3' },
+    phone: [
+      { type: 'home', number: '2103333333' },
+      { type: 'mobile', number: '6933333333' }
+    ],
+    products: [
+      {
+        product: 'product 2',
+        quantity: 10,
+        cost: 20,
+        date: 2022-10-11T21:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2023-08-26T17:57:34.291Z
+      },
+      {
+        product: 'product 5',
+        quantity: 20,
+        cost: 50,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ]
+  },
+  '4': {
+    _id: new ObjectId("64da2d26763d19fa91c8c772"),
+    username: 'user4',
+    password: '12345',
+    name: 'David',
+    surname: 'Bowie',
+    email: 'user4@aueb.gr',
+    address: { area: 'area2', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2105555555' },
+      { type: 'mobile', number: '6935555555' }
+    ],
+    products: [
+      {
+        product: 'product 3',
+        quantity: 10,
+        cost: 30,
+        date: 2023-08-26T17:57:34.292Z
+      },
+      {
+        product: 'product 4',
+        quantity: 3,
+        cost: 40,
+        date: 2023-08-26T17:57:34.292Z
+      }
+    ]
+  },
+  '5': {
+    _id: new ObjectId("64e90c371deeb75459ef5bc3"),
+    username: 'user99',
+    password: '12345',
+    name: 'user99',
+    surname: 'user990',
+    email: 'user99@aueb.gr',
+    address: { area: 'are42', road: 'sinopis' },
+    phone: [ { type: 'home', number: 'lathos' } ],
+    products: [],
+    createdAt: 2023-08-25T20:16:55.818Z,
+    updatedAt: 2023-08-25T20:16:55.818Z,
+    __v: 0
+  },
+  '6': {
+    _id: new ObjectId("64e90ceed06eb62f692c0b6f"),
+    username: 'string',
+    password: 'string',
+    name: 'string',
+    surname: 'string',
+    email: 'string@aueb.gr',
+    address: { area: 'string', road: 'string' },
+    phone: [ { type: 'string', number: 'string' } ],
+    products: [],
+    createdAt: 2023-08-25T20:19:58.370Z,
+    updatedAt: 2023-08-25T20:19:58.370Z,
+    __v: 0
+  },
+  level: 'info',
+  message: 'Success in reading all users',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:57:34'
+}
+{
+  message: 'Warn in reading all users',
+  level: 'warn',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:57:34'
+}
+{
+  message: 'Debug in reading all users',
+  level: 'debug',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:57:34'
+}
+{
+  '0': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76e"),
+    username: 'admin1',
+    password: '12345',
+    name: 'Bob',
+    surname: 'Dylan',
+    email: 'admin1@aueb.gr',
+    address: { area: 'area1', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2101111111' },
+      { type: 'mobile', number: '6931111111' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-12-01T00:00:00.000Z
+      },
+      {
+        product: 'product 1',
+        quantity: 3,
+        cost: 10,
+        date: 2022-05-11T21:00:00.000Z
+      }
+    ]
+  },
+  '1': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76f"),
+    username: 'user1',
+    password: '12345',
+    name: 'Elvis',
+    surname: 'Presley',
+    email: 'user1@aueb.gr',
+    address: { area: 'area2', road: 'road2' },
+    phone: [
+      { type: 'home', number: '2102222222' },
+      { type: 'mobile', number: '6932222222' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-01-11T22:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2022-05-11T21:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 10,
+        cost: 40,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ],
+    updatedAt: 2023-08-24T18:14:46.861Z
+  },
+  '2': {
+    _id: new ObjectId("64da2d26763d19fa91c8c771"),
+    username: 'user3',
+    password: '12345',
+    name: 'Frank',
+    surname: 'Zappa',
+    email: 'user3@aueb.gr',
+    address: { area: 'area3', road: 'road4' },
+    phone: [
+      { type: 'home', number: '2104444444' },
+      { type: 'mobile', number: '6934444444' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 10,
+        cost: 10,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 3',
+        quantity: 3,
+        cost: 30,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 4,
+        cost: 40,
+        date: 2022-12-11T22:00:00.000Z
+      }
+    ]
+  },
+  '3': {
+    _id: new ObjectId("64da2d26763d19fa91c8c770"),
+    username: 'user2',
+    password: '12345',
+    name: 'George',
+    surname: 'Harisson',
+    email: 'user2@aueb.gr',
+    address: { area: 'area1', road: 'road3' },
+    phone: [
+      { type: 'home', number: '2103333333' },
+      { type: 'mobile', number: '6933333333' }
+    ],
+    products: [
+      {
+        product: 'product 2',
+        quantity: 10,
+        cost: 20,
+        date: 2022-10-11T21:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2023-08-26T17:59:17.882Z
+      },
+      {
+        product: 'product 5',
+        quantity: 20,
+        cost: 50,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ]
+  },
+  '4': {
+    _id: new ObjectId("64da2d26763d19fa91c8c772"),
+    username: 'user4',
+    password: '12345',
+    name: 'David',
+    surname: 'Bowie',
+    email: 'user4@aueb.gr',
+    address: { area: 'area2', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2105555555' },
+      { type: 'mobile', number: '6935555555' }
+    ],
+    products: [
+      {
+        product: 'product 3',
+        quantity: 10,
+        cost: 30,
+        date: 2023-08-26T17:59:17.883Z
+      },
+      {
+        product: 'product 4',
+        quantity: 3,
+        cost: 40,
+        date: 2023-08-26T17:59:17.883Z
+      }
+    ]
+  },
+  '5': {
+    _id: new ObjectId("64e90c371deeb75459ef5bc3"),
+    username: 'user99',
+    password: '12345',
+    name: 'user99',
+    surname: 'user990',
+    email: 'user99@aueb.gr',
+    address: { area: 'are42', road: 'sinopis' },
+    phone: [ { type: 'home', number: 'lathos' } ],
+    products: [],
+    createdAt: 2023-08-25T20:16:55.818Z,
+    updatedAt: 2023-08-25T20:16:55.818Z,
+    __v: 0
+  },
+  '6': {
+    _id: new ObjectId("64e90ceed06eb62f692c0b6f"),
+    username: 'string',
+    password: 'string',
+    name: 'string',
+    surname: 'string',
+    email: 'string@aueb.gr',
+    address: { area: 'string', road: 'string' },
+    phone: [ { type: 'string', number: 'string' } ],
+    products: [],
+    createdAt: 2023-08-25T20:19:58.370Z,
+    updatedAt: 2023-08-25T20:19:58.370Z,
+    __v: 0
+  },
+  level: 'info',
+  message: 'Success in reading all users',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:17'
+}
+{
+  message: 'Warn in reading all users',
+  level: 'warn',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:17'
+}
+{
+  message: 'Debug in reading all users',
+  level: 'debug',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:17'
+}
+{
+  '0': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76e"),
+    username: 'admin1',
+    password: '12345',
+    name: 'Bob',
+    surname: 'Dylan',
+    email: 'admin1@aueb.gr',
+    address: { area: 'area1', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2101111111' },
+      { type: 'mobile', number: '6931111111' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-12-01T00:00:00.000Z
+      },
+      {
+        product: 'product 1',
+        quantity: 3,
+        cost: 10,
+        date: 2022-05-11T21:00:00.000Z
+      }
+    ]
+  },
+  '1': {
+    _id: new ObjectId("64da2d26763d19fa91c8c76f"),
+    username: 'user1',
+    password: '12345',
+    name: 'Elvis',
+    surname: 'Presley',
+    email: 'user1@aueb.gr',
+    address: { area: 'area2', road: 'road2' },
+    phone: [
+      { type: 'home', number: '2102222222' },
+      { type: 'mobile', number: '6932222222' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 2,
+        cost: 10,
+        date: 2022-01-11T22:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2022-05-11T21:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 10,
+        cost: 40,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ],
+    updatedAt: 2023-08-24T18:14:46.861Z
+  },
+  '2': {
+    _id: new ObjectId("64da2d26763d19fa91c8c771"),
+    username: 'user3',
+    password: '12345',
+    name: 'Frank',
+    surname: 'Zappa',
+    email: 'user3@aueb.gr',
+    address: { area: 'area3', road: 'road4' },
+    phone: [
+      { type: 'home', number: '2104444444' },
+      { type: 'mobile', number: '6934444444' }
+    ],
+    products: [
+      {
+        product: 'product 1',
+        quantity: 10,
+        cost: 10,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 3',
+        quantity: 3,
+        cost: 30,
+        date: 2022-12-11T22:00:00.000Z
+      },
+      {
+        product: 'product 4',
+        quantity: 4,
+        cost: 40,
+        date: 2022-12-11T22:00:00.000Z
+      }
+    ]
+  },
+  '3': {
+    _id: new ObjectId("64da2d26763d19fa91c8c770"),
+    username: 'user2',
+    password: '12345',
+    name: 'George',
+    surname: 'Harisson',
+    email: 'user2@aueb.gr',
+    address: { area: 'area1', road: 'road3' },
+    phone: [
+      { type: 'home', number: '2103333333' },
+      { type: 'mobile', number: '6933333333' }
+    ],
+    products: [
+      {
+        product: 'product 2',
+        quantity: 10,
+        cost: 20,
+        date: 2022-10-11T21:00:00.000Z
+      },
+      {
+        product: 'product 2',
+        quantity: 3,
+        cost: 20,
+        date: 2023-08-26T17:59:51.441Z
+      },
+      {
+        product: 'product 5',
+        quantity: 20,
+        cost: 50,
+        date: 2022-10-11T21:00:00.000Z
+      }
+    ]
+  },
+  '4': {
+    _id: new ObjectId("64da2d26763d19fa91c8c772"),
+    username: 'user4',
+    password: '12345',
+    name: 'David',
+    surname: 'Bowie',
+    email: 'user4@aueb.gr',
+    address: { area: 'area2', road: 'road1' },
+    phone: [
+      { type: 'home', number: '2105555555' },
+      { type: 'mobile', number: '6935555555' }
+    ],
+    products: [
+      {
+        product: 'product 3',
+        quantity: 10,
+        cost: 30,
+        date: 2023-08-26T17:59:51.442Z
+      },
+      {
+        product: 'product 4',
+        quantity: 3,
+        cost: 40,
+        date: 2023-08-26T17:59:51.442Z
+      }
+    ]
+  },
+  '5': {
+    _id: new ObjectId("64e90c371deeb75459ef5bc3"),
+    username: 'user99',
+    password: '12345',
+    name: 'user99',
+    surname: 'user990',
+    email: 'user99@aueb.gr',
+    address: { area: 'are42', road: 'sinopis' },
+    phone: [ { type: 'home', number: 'lathos' } ],
+    products: [],
+    createdAt: 2023-08-25T20:16:55.818Z,
+    updatedAt: 2023-08-25T20:16:55.818Z,
+    __v: 0
+  },
+  '6': {
+    _id: new ObjectId("64e90ceed06eb62f692c0b6f"),
+    username: 'string',
+    password: 'string',
+    name: 'string',
+    surname: 'string',
+    email: 'string@aueb.gr',
+    address: { area: 'string', road: 'string' },
+    phone: [ { type: 'string', number: 'string' } ],
+    products: [],
+    createdAt: 2023-08-25T20:19:58.370Z,
+    updatedAt: 2023-08-25T20:19:58.370Z,
+    __v: 0
+  },
+  level: 'info',
+  message: 'Success in reading all users',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:51'
+}
+{
+  message: 'Warn in reading all users',
+  level: 'warn',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:51'
+}
+{
+  message: 'Debug in reading all users',
+  level: 'debug',
+  label: 'winston custom format',
+  timestamp: '26-08-2023 20:59:51'
+}

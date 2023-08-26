@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs\\.8f2e6f53cae7b7007cafa65213bf4f7132a60144-audit.json",
+    "files": [
+        {
+            "date": 1693072641561,
+            "name": "logs\\rotate-%Date%.log.26-08-2023",
+            "hash": "7512474695307f11a0397760fecf9d0b28fe5d85253f67c727ede80c715a9d70"
+        }
+    ],
+    "hashType": "sha256"
+}
